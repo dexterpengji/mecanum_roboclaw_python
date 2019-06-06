@@ -13,5 +13,8 @@ A ROS pkg using 2 roboclaws to drive 4 mecanum wheels.
 ### After the above works:
 1. clone this pkg to you catkin_ws/src
 2. then use catkin_make or catkin_make_isolated (--install[optional], --use-ninja[optional]) to compile.
+3. start your roscore
+4. source catkin_ws(your work space)/devel/setup.bash
+5. rosrun mecanum_roboclaw_python mecanum_listener.py
 
 ### Enjoy!
